@@ -54,13 +54,13 @@ Nossa estratégia de desenvolvimento inclui:
 * Marketing Direcionado: Utilizar estratégias de marketing digital direcionado para atrair audiências interessadas em áudio e fones de ouvido.
 * Expansão de Recursos: Adicionar recursos adicionais, como guias de compra, comparação de produtos e vídeos de revisão.
   
-* ### Tecnologias Utilizadas
+### Tecnologias Utilizadas
 * Next13 full stack ecommerce headphone store
 * Stripe
 * TailwindCSS
 * Zustand
   
-* ### Integrantes
+### Integrantes
 * MARCOS ANTONIO VELOSO
 * MARCELO AUGUSTO FRIES GONCALVES
 * MARCELO AUGUSTO JACOMITE RAZOTO
