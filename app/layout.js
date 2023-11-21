@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <head>
         <Script src="https://kit.fontawesome.com/6117d8c460.js"/>
       </head>
-      <body className={'bg-zinc-700 min-w-screen min-h-screen flex flex-col relative ' + inter.className}>
+      <body className={'bg-gray-800 min-w-screen min-h-screen flex flex-col relative ' + inter.className}>
         <Header />
         <div className='flex-1'>
           {children}

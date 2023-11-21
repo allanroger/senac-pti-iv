@@ -23,8 +23,8 @@ export default async function Home() {
           backgroundImage: `url('https://source.unsplash.com/random/?headset,headphone')`,
         }}>
           <div className="align-middle container mx-auto text-center text-white">
-            <h1 className="text-5xl font-bold mb-6">Headphone</h1>
-            <p className="text-xl mb-12">Domine o som, conquiste o jogo com os melhores fones do mercado!</p>
+            <h1 className="text-5xl font-bold mb-6 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">Headphone</h1>
+            <p className="text-xl mb-12 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">Domine o som, conquiste o jogo com os melhores fones do mercado!</p>
             <Link href={"/about"} className='bg-indigo-500 text-white py-4 px-12 rounded-full hover:bg-indigo-600'>Saiba mais</Link>
           </div>
         </section>
