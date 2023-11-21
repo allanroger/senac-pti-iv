@@ -1,6 +1,4 @@
- Next13 full stack ecommerce headphone store + Stripe + TailwindCSS + Zustand
-
-# Projeto-Integrador-IV
+ # Projeto-Integrador-IV
 O principal objetivo da a entrega é consolidar o aprendizado adquirido ao longo das disciplinas de desenvolvimento web.
 
 # Aplicativo de E-commerce de Fones de Ouvido
@@ -55,3 +53,17 @@ Nossa estratégia de desenvolvimento inclui:
 * Parcerias Estratégicas: Buscar parcerias com fabricantes de fones de ouvido e marcas de áudio para oferecer produtos exclusivos.
 * Marketing Direcionado: Utilizar estratégias de marketing digital direcionado para atrair audiências interessadas em áudio e fones de ouvido.
 * Expansão de Recursos: Adicionar recursos adicionais, como guias de compra, comparação de produtos e vídeos de revisão.
+  
+* ### Tecnologias Utilizadas
+* Next13 full stack ecommerce headphone store
+* Stripe
+* TailwindCSS
+* Zustand
+  
+* ### Integrantes
+* MARCOS ANTONIO VELOSO
+* MARCELO AUGUSTO FRIES GONCALVES
+* MARCELO AUGUSTO JACOMITE RAZOTO
+* REGINA AZZI
+* JULIO CESAR DA SILVA
+* ALLAN ROGER GONCALVES DE SOUZA
