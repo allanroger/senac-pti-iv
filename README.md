@@ -1,3 +1,11 @@
+### Integrantes
+* MARCOS ANTONIO VELOSO
+* MARCELO AUGUSTO FRIES GONCALVES
+* MARCELO AUGUSTO JACOMITE RAZOTO
+* REGINA AZZI
+* JULIO CESAR DA SILVA
+* ALLAN ROGER GONCALVES DE SOUZA
+ 
  # Projeto-Integrador-IV
 O principal objetivo da a entrega é consolidar o aprendizado adquirido ao longo das disciplinas de desenvolvimento web.
 
@@ -54,16 +62,23 @@ Nossa estratégia de desenvolvimento inclui:
 * Marketing Direcionado: Utilizar estratégias de marketing digital direcionado para atrair audiências interessadas em áudio e fones de ouvido.
 * Expansão de Recursos: Adicionar recursos adicionais, como guias de compra, comparação de produtos e vídeos de revisão.
   
+## Pré requisitos e Instalação
+- Node.Js [Aqui](https://nodejs.org/en/)
+- Visual Studio Code (IDE), ou outra IDE de sua preferência
+- Fazer clone do projeto
+- Back end foi o stripe é necessário criar conta 
+- Criar conta no stripe [Aqui}(https://dashboard.stripe.com/register)
+- Pegar api para desenvolvimento
+- Criar api key
+- Aplicar no projeto um arvivo .end com a informação STRIPE_SECRET={API KEY CRIADA NO STRIPE}
+- Cadastrar os produtos na plataforma stripe
+- Instalar as dependências do projeto com o comando npm i
+- Executar o comando npm run dev para rodar o projeto localmente
+- Acessar o projeto pela url localhost:3000
+  
 ### Tecnologias Utilizadas
 * Next13 full stack ecommerce headphone store
 * Stripe
 * TailwindCSS
 * Zustand
-  
-### Integrantes
-* MARCOS ANTONIO VELOSO
-* MARCELO AUGUSTO FRIES GONCALVES
-* MARCELO AUGUSTO JACOMITE RAZOTO
-* REGINA AZZI
-* JULIO CESAR DA SILVA
-* ALLAN ROGER GONCALVES DE SOUZA
+
