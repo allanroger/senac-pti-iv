@@ -35,20 +35,20 @@ export default function ProductPage(props) {
                             </div>
                         </div>
                         <div className="md:flex-1 px-4">
-                            <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">{name}</h2>
+                            <h2 className="text-2xl font-bold text-white mb-2">{name}</h2>
                             <div className="flex mb-4">
                                 <div className="mr-4">
-                                    <span className="font-bold text-gray-700 dark:text-gray-300">Preço:</span>
-                                    <span className="text-gray-600 dark:text-gray-300">${price / 100}</span>
+                                    <span className="font-bold text-white ">Preço:</span>
+                                    <span className="text-white ">${price / 100}</span>
                                 </div>
                                 <div>
-                                    <span className="font-bold text-gray-700 dark:text-gray-300">Disponibilidade:</span>
-                                    <span className="text-gray-600 dark:text-gray-300">Em estoque</span>
+                                    <span className="font-bold text-white">Disponibilidade:</span>
+                                    <span className="text-white ">Em estoque</span>
                                 </div>
                             </div>
                             <div>
-                                <span className="font-bold text-gray-700 dark:text-gray-300">Descrição do produto:</span>
-                                <p className="text-gray-600 dark:text-gray-300 text-sm mt-2">{description}</p>
+                                <span className="font-bold text-white ">Descrição do produto:</span>
+                                <p className="text-white text-sm mt-2">{description}</p>
                             </div>
                         </div>
                     </div>
