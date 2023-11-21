@@ -10,10 +10,10 @@ export default function ContactPage() {
               <div className="mb-12 max-w-[570px] lg:mb-0">
                 <div className="relative mb-10">
                   <h2
-                    className="absolute -top-20   left-0 text-[20px] lg:text-[100px] text-gray-900 font-bold  dark:text-gray-200 opacity-5 md:block hidden">
+                    className="absolute -top-20   left-0 text-[20px] lg:text-[100px] font-bold  text-white opacity-5 md:block hidden">
                     Contato
                   </h2>
-                  <h3 className="pl-2 text-3xl font-bold border-l-8 border-indigo-400 md:text-5xl dark:text-white">
+                  <h3 className="pl-2 text-3xl font-bold border-l-8 border-indigo-400 md:text-5xl text-white">
                     Entre em contato conosco!
                   </h3>
                 </div>
@@ -33,10 +33,10 @@ export default function ContactPage() {
                     </svg>
                   </div>
                   <div className="w-full">
-                    <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
+                    <h4 className="mb-1 text-xl font-bold text-white">
                       Onde estamos
                     </h4>
-                    <p className="text-base text-body-color dark:text-dark-6">
+                    <p className="text-base text-white">
                       00 Rua BLABLA - Bairro BLABLA
                     </p>
                   </div>
@@ -73,10 +73,10 @@ export default function ContactPage() {
                     </svg>
                   </div>
                   <div className="w-full">
-                    <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
+                    <h4 className="mb-1 text-xl font-bold text-white">
                       Telefone
                     </h4>
-                    <p className="text-base text-body-color dark:text-dark-6">
+                    <p className="text-base text-body-color text-white">
                       (+55)11 00000-0000
                     </p>
                   </div>
@@ -98,10 +98,10 @@ export default function ContactPage() {
                     </svg>
                   </div>
                   <div className="w-full">
-                    <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
+                    <h4 className="mb-1 text-xl font-bold text-white">
                       Email
                     </h4>
-                    <p className="text-base text-body-color dark:text-dark-6">
+                    <p className="text-base text-body-color text-white">
                       teste@gmail.com
                     </p>
                   </div>
@@ -966,7 +966,7 @@ const ContactTextArea = ({ row, placeholder, name, defaultValue }) => {
           rows={row}
           placeholder={placeholder}
           name={name}
-          className="w-full resize-none rounded border border-stroke px-[14px] py-3 text-base text-body-color outline-none focus:border-primary dark:border-dark-3 dark:bg-dark dark:text-dark-6"
+          className="w-full resize-none rounded border border-stroke px-[14px] py-3 text-base text-body-color outline-none focus:border-primary dark:border-dark-3 dark:bg-dark text-white"
           defaultValue={defaultValue}
         />
       </div>
@@ -982,7 +982,7 @@ const ContactInputBox = ({ type, placeholder, name }) => {
           type={type}
           placeholder={placeholder}
           name={name}
-          className="w-full rounded border border-stroke px-[14px] py-3 text-base text-body-color outline-none focus:border-primary dark:border-dark-3 dark:bg-dark dark:text-dark-6"
+          className="w-full rounded border border-stroke px-[14px] py-3 text-base text-body-color outline-none focus:border-primary dark:border-dark-3 dark:bg-dark text-white"
         />
       </div>
     </>

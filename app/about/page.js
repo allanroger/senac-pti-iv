@@ -16,14 +16,14 @@ export default function AboutPage() {
                     <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0 ">
                         <div className="relative">
                             <h2
-                                className="absolute -top-20   left-0 text-[20px] lg:text-[100px] text-gray-900 font-bold  dark:text-gray-200 opacity-5 md:block hidden">
+                                className="absolute -top-20   left-0 text-[20px] lg:text-[100px] font-bold  text-white opacity-5 md:block hidden">
                                 Sobre nós
                             </h2>
-                            <h3 className="pl-2 text-3xl font-bold border-l-8 border-indigo-400 md:text-5xl dark:text-white">
+                            <h3 className="pl-2 text-3xl font-bold border-l-8 border-indigo-400 md:text-5xl text-white">
                                 A Revolução no Som: A Qualidade e Tecnologia dos Fones de Ouvido na Vida Cotidiana
                             </h3>
                         </div>
-                        <p className="mt-6 mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
+                        <p className="mt-6 mb-10 text-base leading-7 text-white">
                             A qualidade de som excepcional dos fones de ouvido modernos é um testemunho do avanço contínuo na engenharia acústica. Os drivers de alta fidelidade e as tecnologias de cancelamento de ruído transportam os usuários para um mundo de nuances musicais e detalhes sonoros que antes eram imperceptíveis. Seja para apreciar a música durante uma corrida matinal, imergir-se em um podcast inspirador durante o trajeto para o trabalho ou desfrutar de um momento de tranquilidade em um café lotado, a qualidade sonora cristalina dos fones de ouvido cria uma experiência auditiva verdadeiramente envolvente. A conectividade avançada dos fones de ouvido permite uma integração perfeita com uma variedade de dispositivos, desde smartphones e tablets até laptops e smart TVs. A capacidade de alternar facilmente entre chamadas telefônicas e reprodução de música, sem comprometer a qualidade do som, torna esses dispositivos versáteis e essenciais em nosso cotidiano agitado.
                         </p>
                     </div>
