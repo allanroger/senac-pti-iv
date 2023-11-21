@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export default function ProductCard(props) {
     const { product } = props
-    const { id: price_id, unit_amount: cost, product: productInfo } = product
+    const { id: price_id, unit_amount: price, product: productInfo } = product
     const { name, description } = productInfo
 
     const setProduct = useCart(state => state.setProduct)
@@ -18,7 +18,7 @@ export default function ProductCard(props) {
             name,
             description,
             price_id,
-            cost,
+            price,
             productInfo
         }
         setProduct({ newProduct })
@@ -30,7 +30,7 @@ export default function ProductCard(props) {
             <div className='flex flex-col gap-2 p-4'>
                 <div className='flex items-center justify-between'>
                     <h3>{name}</h3>
-                    <p>${cost / 100}</p>
+                    <p>${price / 100}</p>
                 </div>
                 <p className='text-sm'>{description}</p>
                 <button onClick={onProductClick} className='bg-indigo-500 text-white py-4 px-12 rounded-full hover:bg-indigo-600'>

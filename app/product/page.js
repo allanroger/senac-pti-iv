@@ -7,14 +7,14 @@ export default function ProductPage(props) {
     const { price_id } = searchParams
     const product = useCart(state => state.product)
     const addItemToCart = useCart(state => state.addItemToCart)
-    const { cost, productInfo, name, description } = product
+    const { price, productInfo, name, description } = product
 
     function handleAddToCart() {
         const newItem = {
             quantity: 1,
             price_id,
             name,
-            cost
+            price
         }
         addItemToCart({ newItem })
     }
@@ -28,7 +28,7 @@ export default function ProductPage(props) {
                 <div className="flex flex-col gap-2 p-4">
                     <div className="flex md:flex-col md:items-start text-xl  items-center justify-between gap-2">
                         <h3>{name}</h3>
-                        <p className="md:text-base">${cost / 100}</p>
+                        <p className="md:text-base">${price / 100}</p>
                     </div>
                     <p className="text-sm flex-1">{description}</p>
                     <button onClick={handleAddToCart} className="bg-slate-700 text-white hover:bg-slate-500 cursor-pointer ml-auto px-4 py-2">Adicionar a sacola</button>
