@@ -72,13 +72,13 @@ Nossa estratégia de desenvolvimento inclui:
 - Node.Js [Aqui](https://nodejs.org/en/)
 - Visual Studio Code (IDE), ou outra IDE de sua preferência.
 - Fazer clone do projeto.
-- Back end foi o stripe é necessário criar conta. 
+- Backend foi o stripe é necessário criar conta. 
 - Criar conta no stripe [Aqui](https://dashboard.stripe.com/register)
 - Pegar API para desenvolvimento.
 - Criar API key.
-- Aplicar no projeto um arquivo .env com a informação STRIPE_SECRET={API KEY CRIADA NO STRIPE}
+- Aplicar no projeto um arquivo **.env** com a informação STRIPE_SECRET=**API KEY CRIADA NO STRIPE**
 - Cadastrar os produtos na plataforma stripe.
-- Instalar as dependências do projeto com o comando npm i
-- Executar o comando npm run dev para rodar o projeto localmente.
-- Acessar o projeto pela url localhost:3000
+- Instalar as dependências do projeto com o comando **npm i**
+- Executar o comando **npm run dev** para rodar o projeto localmente.
+- Acessar o projeto pela url **localhost:3000**
   
