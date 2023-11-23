@@ -1,0 +1,39 @@
+.page {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.page p {
+    font-size: 40px;
+    margin: 20px 0
+}
+
+.page button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+}
+.page button:hover {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+@media (max-width: 1025px) {
+  .page {
+    margin-top: 0;
+    padding: 20px 0;
+  }
+  .page p {
+    font-size: 30px;
+  }
+  .page button {
+    padding: 8px;
+    font-size: 15px;
+  }
+}

@@ -115,6 +115,11 @@
   resolved "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz"
   integrity sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==
 
+"@stripe/stripe-js@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.npmjs.org/@stripe/stripe-js/-/stripe-js-2.2.0.tgz"
+  integrity sha512-YyXQbsXvnNRJ6MofFhCLIQ4W7UpfkfSOQhjIaHEiCMBv3IBxhzugXiYNNzceGTK/7DL31v7HtTnkJ+FI+6AIow==
+
 "@swc/helpers@0.4.14":
   version "0.4.14"
   resolved "https://registry.npmjs.org/@swc/helpers/-/helpers-0.4.14.tgz"
