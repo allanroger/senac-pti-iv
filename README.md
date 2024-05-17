@@ -22,6 +22,7 @@ Nosso aplicativo é direcionado a um público diversificado, incluindo:
 * Gamers: Jogadores que buscam fones de ouvido com áudio de alta qualidade e recursos específicos para aprimorar sua experiência de jogo.
 * Profissionais e Estudantes: Pessoas que dependem de fones de ouvido para trabalho, estudo ou videoconferências, necessitando de conforto e qualidade de microfone.
 * Amantes de Esportes e Atividades ao Ar Livre: Indivíduos ativos que procuram fones de ouvido resistentes e adequados para uso durante atividades físicas.
+* Crianças e Adolescentes: Jovens de até 13 anos que buscam interagir com dispositivos para entretenimento, aulas online e afins. 
 
 ### Dificuldades Apresentadas
 O mercado de fones de ouvido é vasto e complexo, apresentando dificuldades para os consumidores, como:
